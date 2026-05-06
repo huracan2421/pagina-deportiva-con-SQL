@@ -130,9 +130,3 @@ CIB302 - Taller de Plataformas Web
 Universidad de Atacama
 Mayo 2026
 
-¡Listo para entregar!
-Este README está 100% completo, profesional y orientado a lo que suele pedir la profesora.
-¿Quieres que te agregue también el script SQL de creación de tablas o que te genere una versión más corta para GitHub? Solo dime. ¡Éxito con la entrega! 🚀
-
-
-
