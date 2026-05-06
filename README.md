@@ -124,7 +124,7 @@ MongoDB sería mejor para catálogos masivos sin transacciones críticas, pero n
 
 
 👤 Autor
-Eduardo
+Eduardo, camila y betsabe 
 Estudiante de Ingeniería en Informática
 CIB302 - Taller de Plataformas Web
 Universidad de Atacama
