@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra - SportyStyle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'" style="cursor: pointer;">
+            <img src="images/logo.png" alt="SportyStyle" class="header-logo">
+            <div>
+                <h1>SportyStyle</h1>
+                <p>Ropa Deportiva</p>
+            </div>
+        </div>
+        <h2>Finalizar tu Compra</h2>
+    </header>
+
+    <main class="checkout-page">
+        <!-- Resumen del Carrito -->
+        <div class="order-summary">
+            <h3>Tu Carrito</h3>
+            <div id="order-items" class="cart-items"></div>
+            
+            <div class="total">
+                <strong>Total a pagar: $<span id="total-amount">0</span></strong>
+            </div>
+
+            <button onclick="window.location.href='index.html'" class="btn-secondary">Seguir Comprando</button>
+        </div>
+
+        <!-- Formulario de Datos -->
+        <div class="checkout-form">
+            <h3>Tus Datos de Envío</h3>
+            <form id="payment-form">
+                <label>Nombre completo</label>
+                <input type="text" id="nombre" required>
+
+                <label>Correo electrónico</label>
+                <input type="email" id="email" required>
+
+                <label>Dirección de envío</label>
+                <input type="text" id="direccion" required>
+
+                <label>Teléfono</label>
+                <input type="tel" id="telefono" required>
+
+                <button type="button" onclick="processPayment()" class="btn-pay">COMPLETAR COMPRA</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Pantalla de éxito -->
+    <div id="success-screen" class="success-screen" style="display:none;">
+        <h2>¡Compra Exitosa! 🎉</h2>
+        <p>Gracias por comprar en SportyStyle</p>
+        <div id="success-details"></div>
+        <button onclick="window.location.href='index.html'" class="btn-success">Volver a la Tienda</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
